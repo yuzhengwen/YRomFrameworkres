@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/theme_accent">
+        <bitmap android:src="@drawable/ic_lock_airplane_mode_off_am_alpha" android:tint="?colorControlNormal" android:autoMirrored="true" />
+    </item>
+    <item android:id="@id/theme_accent">
+        <bitmap android:src="@drawable/ic_lock_airplane_mode_off_am_alpha_colored" android:tint="@color/somc_color_accent_dark" android:autoMirrored="true" />
+    </item>
+</layer-list>

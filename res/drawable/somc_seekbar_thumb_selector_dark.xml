@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector android:constantSize="true" somc:extendedLookAndFeel="true"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:somc="http://schemas.android.com/apk/res/com.sonyericsson.uxp">
+    <item android:state_enabled="false" android:drawable="@drawable/somc_seekbar_thumb_disabled_dark" />
+    <item android:state_pressed="true" android:id="@id/pressed" android:drawable="@drawable/somc_seekbar_thumb_to_pressed_5_dark" />
+    <item android:id="@id/not_pressed" android:drawable="@drawable/somc_seekbar_thumb_to_pressed_0_dark" />
+    <transition android:toId="@id/pressed" android:fromId="@id/not_pressed">
+        <animation-list>
+            <item android:duration="15" android:drawable="@drawable/somc_seekbar_thumb_to_pressed_0_dark" />
+            <item android:duration="15" android:drawable="@drawable/somc_seekbar_thumb_to_pressed_1_dark" />
+            <item android:duration="15" android:drawable="@drawable/somc_seekbar_thumb_to_pressed_2_dark" />
+            <item android:duration="15" android:drawable="@drawable/somc_seekbar_thumb_to_pressed_3_dark" />
+            <item android:duration="15" android:drawable="@drawable/somc_seekbar_thumb_to_pressed_4_dark" />
+            <item android:duration="15" android:drawable="@drawable/somc_seekbar_thumb_to_pressed_5_dark" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/not_pressed" android:fromId="@id/pressed">
+        <animation-list>
+            <item android:duration="15" android:drawable="@drawable/somc_seekbar_thumb_from_pressed_0_dark" />
+            <item android:duration="15" android:drawable="@drawable/somc_seekbar_thumb_from_pressed_1_dark" />
+            <item android:duration="15" android:drawable="@drawable/somc_seekbar_thumb_from_pressed_2_dark" />
+            <item android:duration="15" android:drawable="@drawable/somc_seekbar_thumb_from_pressed_3_dark" />
+            <item android:duration="15" android:drawable="@drawable/somc_seekbar_thumb_from_pressed_4_dark" />
+            <item android:duration="15" android:drawable="@drawable/somc_seekbar_thumb_from_pressed_5_dark" />
+        </animation-list>
+    </transition>
+</animated-selector>

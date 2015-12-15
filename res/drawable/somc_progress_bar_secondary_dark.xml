@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nine-patch android:src="@drawable/progress_mtrl_alpha" android:tint="?colorControlActivated" android:alpha="?disabledAlpha"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

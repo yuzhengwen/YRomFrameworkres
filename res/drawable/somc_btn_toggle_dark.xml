@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/button_inset_horizontal_material" android:insetRight="@dimen/button_inset_horizontal_material" android:insetTop="@dimen/button_inset_vertical_material" android:insetBottom="@dimen/button_inset_vertical_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list android:paddingMode="stack">
+        <item>
+            <shape android:shape="rectangle"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <corners android:topLeftRadius="@dimen/control_corner_material" android:topRightRadius="@dimen/control_corner_material" />
+                <solid android:color="@color/somc_btn_toggle_bg_color_dark" />
+                <padding android:left="@dimen/button_padding_horizontal_material" android:top="@dimen/button_padding_vertical_material" android:right="@dimen/button_padding_horizontal_material" android:bottom="@dimen/button_padding_vertical_material" />
+            </shape>
+        </item>
+        <item>
+            <selector
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <item android:state_checked="false">
+                    <nine-patch android:src="@drawable/btn_toggle_indicator_mtrl_alpha" android:tint="@color/somc_btn_toggle_indicator_bg_color_dark" />
+                </item>
+                <item android:state_checked="true">
+                    <nine-patch android:src="@drawable/btn_toggle_indicator_mtrl_alpha" android:tint="?colorAccent" />
+                </item>
+            </selector>
+        </item>
+    </layer-list>
+</inset>

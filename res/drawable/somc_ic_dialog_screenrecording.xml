@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/theme_accent">
+        <bitmap android:src="@drawable/somc_ic_dialog_screenrecording_alpha" android:tint="?colorControlNormal" />
+    </item>
+    <item android:id="@id/theme_accent">
+        <bitmap android:src="@drawable/somc_ic_dialog_screenrecording_colored" android:tint="@color/somc_color_accent_dark" />
+    </item>
+</layer-list>

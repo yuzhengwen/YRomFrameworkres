@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">SIM бикләнгәнче %d омтылышыгыз калды</item>
+        <item quantity="one">SIM бикләнгәнче %d омтылышыгыз калды</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d секунд элек</item>
+        <item quantity="one">1 секунд элек</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d минут элек</item>
+        <item quantity="one">1 минут элек</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d сәгать элек</item>
+        <item quantity="one">1 сәгать элек</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Соңгы %d көн</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d көн элек</item>
+        <item quantity="one">кичә</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d секундтан</item>
+        <item quantity="one">1 секундтан</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d минуттан</item>
+        <item quantity="one">1 минуттан</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%d сәгатьтән</item>
+        <item quantity="one">1 сәгатьтән</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%d көннән</item>
+        <item quantity="one">иртәгә</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d секунд элек</item>
+        <item quantity="one">1 сек. элек</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d минут элек</item>
+        <item quantity="one">1 мин. элек</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d сәгать элек</item>
+        <item quantity="one">1 сәгать элек</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d көн элек</item>
+        <item quantity="one">кичә</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d секундтан</item>
+        <item quantity="one">1 секундтан</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d минуттан</item>
+        <item quantity="one">1 минуттан</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%d сәгатьтән</item>
+        <item quantity="one">1 сәгатьтән</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%d көннән</item>
+        <item quantity="one">иртәгә</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">1 секунд</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d минуттан</item>
+        <item quantity="one">1 минут</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d сәгать</item>
+        <item quantity="one">1 сәгать</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi челтәрләр мөмкин</item>
+        <item quantity="one">Wi-Fi челтәр мөмкин</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Мөмкин Wi-Fi челтәрләрен ачу</item>
+        <item quantity="one">Мөмкин Wi-Fi челтәрен ачу</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d - %2$d</item>
+        <item quantity="one">1 туры килү</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">%d сек. соң омтылышны кабатлагыз.</item>
+        <item quantity="one">1 секундтан омтылышны кабатлагыз</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary">
+        <item quantity="other">%1$d минут буе (%2$s кадәр)</item>
+        <item quantity="one">Бер минут буе (%2$s кадәр)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary">
+        <item quantity="other">%1$d сәгать буе (%2$s кадәр)</item>
+        <item quantity="one">Бер сәгать буе (%2$s кадәр)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d минутка</item>
+        <item quantity="one">Бер минут өчен</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d сәгатькә</item>
+        <item quantity="one">Бер сәгать өчен</item>
+    </plurals>
+</resources>
